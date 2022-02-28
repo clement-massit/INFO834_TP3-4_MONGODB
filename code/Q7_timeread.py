@@ -6,7 +6,7 @@ import pprint
 import time
 ## Import csv 
 
-df = pd.read_csv("communes-departement-region.csv")
+df = pd.read_csv("./communes-departement-region.csv")
 
 
 client = MongoClient('localhost:27017')
